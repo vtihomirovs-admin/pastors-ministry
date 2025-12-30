@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastor Ralph and Patricia - Christian Ministry</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: #4CAF50; color: white; padding: 2em; text-align: center; }
+        section { max-width: 900px; margin: 2em auto; padding: 1em; background: white; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-radius: 8px; }
+        h2 { color: #4CAF50; }
+        .bio { display: flex; flex-wrap: wrap; gap: 2em; }
+        .bio img { max-width: 300px; border-radius: 8px; }
+        .videos { display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; }
+        .videos iframe { width: 100%; max-width: 400px; height: 225px; }
+        .links { list-style: none; padding: 0; }
+        .links li { margin: 0.5em 0; }
+        form { display: grid; gap: 1em; }
+        input, textarea { padding: 0.5em; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #4CAF50; color: white; padding: 0.75em; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        .donate-button { display: inline-block; margin-top: 1em; text-decoration: none; }
+        footer { text-align: center; padding: 1em; background-color: #4CAF50; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Ministry of Pastor Ralph and Patricia</h1>
+        <p>Spreading the love of Christ through teaching, outreach, and community.</p>
+    </header>
+
+    <section id="bio">
+        <h2>About Us</h2>
+        <div class="bio">
+            <img src="https://via.placeholder.com/300?text=Pastor+Ralph+Photo" alt="Pastor Ralph">
+            <div>
+                <h3>Pastor Ralph</h3>
+                <p>Pastor Ralph has been serving in ministry for over 20 years, focusing on biblical teaching and youth outreach. He holds a degree in Theology and is passionate about helping families grow in faith.</p>
+            </div>
+        </div>
+        <div class="bio">
+            <img src="https://via.placeholder.com/300?text=Pastor+Patricia+Photo" alt="Pastor Patricia">
+            <div>
+                <h3>Pastor Patricia</h3>
+                <p>Pastor Patricia specializes in women's ministry and counseling. With a background in Christian education, she leads workshops on spiritual growth and family dynamics.</p>
+            </div>
+        </div>
+        <p>Together, we lead [Your Church Name] and are committed to sharing the Gospel. Our mission: "For God so loved the world..." (John 3:16).</p>
+    </section>
+
+    <section id="videos">
+        <h2>Sermons and Messages</h2>
+        <div class="videos">
+            <!-- Embed YouTube videos: Replace with your video IDs (e.g., https://www.youtube.com/watch?v=VIDEO_ID) -->
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Sermon 1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Sermon 2" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="links">
+        <h2>Resources and Links</h2>
+        <ul class="links">
+            <li><a href="https://biblegateway.com" target="_blank">Bible Gateway - Online Scriptures</a></li>
+            <li><a href="https://yourchurchwebsite.com" target="_blank">Our Church Website</a></li>
+            <li><a href="https://christianpodcast.com" target="_blank">Recommended Podcasts</a></li>
+            <!-- Add more links as needed -->
+        </ul>
+    </section>
+
+    <section id="donations">
+        <h2>Support Our Ministry</h2>
+        <p>Your generous donations help us continue spreading the Gospel, supporting community outreach, and providing resources for spiritual growth. Every contribution makes a difference in advancing God's kingdom.</p>
+        <p>We accept secure donations through [Your Preferred Platform, e.g., PayPal]. Thank you for your support!</p>
+        <a href="https://www.paypal.com/donate?hosted_button_id=YOURBUTTONID" target="_blank" class="donate-button">
+            <button>Donate Now</button>
+        </a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/your-form-endpoint" method="POST"> <!-- Replace with your Formspree endpoint -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pastor Ralph and Patricia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
